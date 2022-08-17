@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lineasafiliadas"
+        android:title="LÍNEAS AFILIADAS"/>
+
+    <item
+        android:id="@+id/tarifas"
+        android:title="TARIFAS"/>
+
+    <item
+        android:id="@+id/rutas"
+        android:title="RUTAS"/>
+
+    <item
+        android:id="@+id/pagosrealizados"
+        android:title="PAGOS REALIZADOS"/>
+
+    <item
+        android:id="@+id/manualdeinstrucciones"
+        android:title="MANUAL DE INSTRUCCIONES"/>
+
+    <item
+        android:id="@+id/quejasysugerencias"
+        android:title="QUEJAS Y SUGERENCIAS"/>
+
+    <item
+        android:id="@+id/preguntasyrespuestas"
+        android:title="PREGUNTAS Y RESPUESTAS"/>
+
+    <item
+        android:id="@+id/cerrarsesion"
+        android:title="CERRAR SESIÓN"/>
+
+    <item
+        android:id="@+id/cerrarsesionicon"
+        android:title="CERRAR SESIÓN"
+        android:icon="@drawable/cerrar_sesion"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/configuracion"
+        android:title="CONFIGURACION"
+        android:icon="@drawable/configuracion"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gestor_Principal"
+    android:background="#51D1F6">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutgestorprincipal1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutgestorprincipal2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutgestorprincipal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8sp"
+                android:layout_marginTop="3sp"
+                android:layout_marginEnd="3sp"
+                android:layout_marginBottom="3sp"
+                android:orientation="horizontal"
+                android:background="@drawable/fondo_circular">
+
+                <ImageView
+                    android:id="@+id/imageViewSiluetaUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3sp"
+                    android:layout_marginTop="3sp"
+                    android:layout_marginEnd="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:src="@drawable/user"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewUserGestor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USER#324 (GESTOR)"
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout2" />
+
+            <ImageView
+                android:id="@+id/imageViewbuspequeño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130sp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/autobuspequeno"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutgestorprincipal4"
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#51D1F6"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1sp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutgestorprincipal1">
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#0000FF"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutgestorprincipal4">
+    </android.support.v7.widget.Toolbar>
+
+</android.support.constraint.ConstraintLayout>
